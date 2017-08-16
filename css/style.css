@@ -235,6 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .statistics h2 {
+	color: #676767;
 	width: 40%;
 	margin: 0 auto;
 	text-align: center;
@@ -362,4 +363,21 @@ td, th {
 .table .total {
 	background: #e4d6f9;
   font-weight: bold;
+}
+
+.stats-right .btn {
+	margin-top: 33px;
+	margin-bottom: 40px;
+	box-sizing: border-box;
+	display: inline-block;
+  background-color: #9f449b;
+  border-radius: 5px;
+  height: 70px;
+	line-height: 36px;
+	padding: 12px 58px;
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+	border-bottom: #6b2e68 4px solid;
+	color: #fff;
+	text-decoration: none;
 }
