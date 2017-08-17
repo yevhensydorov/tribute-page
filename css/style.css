@@ -231,6 +231,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .statistics {
+	min-height: 500px;
 	padding-top: 80px;
 }
 
@@ -381,4 +382,25 @@ td, th {
 	border-bottom: #6b2e68 4px solid;
 	color: #fff;
 	text-decoration: none;
+}
+
+.bio {
+	min-height: 500px;
+	background: url(../img/chelsea-shevchenko-changed-res.jpg) top center no-repeat;
+}
+
+.bio-info {
+	text-align: center;
+}
+
+.bio-info p {
+	border-radius: 50%;
+	display: table-cell;
+	vertical-align: middle; 
+	text-align: center; 
+	border: 4px solid #ffffff;
+	height: 100px;
+	width: 100px;
+	text-decoration: none;
+	background-color: rgba(159, 68, 155, .7);	  	
 }
