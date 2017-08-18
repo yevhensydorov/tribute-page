@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline-block;
 	position: absolute;
 	top: -55%;
-  right: 15%;
+	right: 15%;
 }
 
 .stats-left {
@@ -292,8 +292,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 .table {
@@ -315,8 +315,8 @@ table {
 .table th {
 	font-family: "Lato-Light", sans-serif;
 	font-weight: normal;
-  text-transform: uppercase;
-  font-size: .91rem;
+	text-transform: uppercase;
+	font-size: .91rem;
 }
 td, th {
 	vertical-align: top;
@@ -355,7 +355,7 @@ td, th {
 	background-image: url(../img/arrow.png);
 	padding: 0 0 0 12px;
 	background-repeat: no-repeat;
-  background-position: 0 4px;
+	background-position: 0 4px;
 }
 
 .table .last {
@@ -364,7 +364,7 @@ td, th {
 
 .table .total {
 	background: #e4d6f9;
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .stats-right .btn {
@@ -372,9 +372,9 @@ td, th {
 	margin-bottom: 40px;
 	box-sizing: border-box;
 	display: inline-block;
-  background-color: #9f449b;
-  border-radius: 5px;
-  height: 70px;
+	background-color: #9f449b;
+	border-radius: 5px;
+	height: 70px;
 	line-height: 36px;
 	padding: 12px 58px;
 	font-family: "Lato", sans-serif;
@@ -390,17 +390,20 @@ td, th {
 }
 
 .bio-info {
+	box-sizing: border-box;
+	padding-top: 250px;
 	text-align: center;
+	color: #fff;
 }
 
-.bio-info p {
-	border-radius: 50%;
-	display: table-cell;
-	vertical-align: middle; 
-	text-align: center; 
-	border: 4px solid #ffffff;
-	height: 100px;
-	width: 100px;
-	text-decoration: none;
-	background-color: rgba(159, 68, 155, .7);	  	
+.bio-info i {
+	font-size: 4rem;
 }
+
+.bio-info h2 {
+	padding-top: 20px;
+	font-family: "Lato-Light", sans-serif;
+	font-size: 2rem;
+	letter-spacing: 2px;
+}
+
