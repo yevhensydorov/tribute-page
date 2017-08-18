@@ -407,3 +407,15 @@ td, th {
 	letter-spacing: 2px;
 }
 
+.bio-timelines li {
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+.bio-list li i {
+	margin-right: 5px;
+}
+
+.bio-list .bio-date {
+	color: #995ff0;
+}
