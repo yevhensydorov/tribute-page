@@ -39,6 +39,10 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
+.non-display {
+	display: none;
+}
+
 .promo-top {
 	min-height: 670px;
 	background: url(../img/background.jpg);
@@ -267,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline-block;
 	position: absolute;
 	top: 55%;
-  left: 15%;
+	left: 15%;
 }
 
 .statistics h2:after,
